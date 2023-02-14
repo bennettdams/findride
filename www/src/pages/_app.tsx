@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <main
-        className={`${globalFont.className} w-full bg-dsecondary text-dsecondary h-screen`}
+        className={`${globalFont.className} w-full caret-dprimary selection:bg-dprimary selection:text-dtertiary bg-dsecondary text-dsecondary h-screen`}
       >
         <Analytics />
         <Component {...pageProps} />
